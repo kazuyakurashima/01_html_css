@@ -1,4 +1,4 @@
-/* !-- headerの記述 -- */
+/* -- headerの記述 -- */
 header {
     display: flex;
     justify-content: space-between;
@@ -8,24 +8,44 @@ header {
     font-size: 21px;
 }
 
+.header-right {
+    background: #dddddd;
+    width: auto;
+    height:80px;
+}
 
-/* !-- sectionの記述 -- */
+.log {
+    width:auto;
+    height:80px;
+}
+
+/* -- sectionの記述 -- */
 .header-right a:hover {
     background-color: blue
         /* hoverさせた色を恐らくコーポレートカラー青にした */
 }
 
-.Introduction {
-    text-align: center;
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(./img/MainVisual.jpg);
+    background-size: cover;
+    color:#ffffff
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .phot {
-    width:800px;
+    max-width: 100%;
     height:auto;
 }
 
 h2 {
     margin-top: 100px;
+    color: burlywood;
 }
 
 
@@ -34,6 +54,7 @@ footer {
     background: #707070;
     padding: 30px 0;
     margin-top: 140px;
+    text-align:center;
 }
 footer p {
     color: #ffffff;
